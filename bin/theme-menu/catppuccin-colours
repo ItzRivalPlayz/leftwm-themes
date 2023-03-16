@@ -1,0 +1,74 @@
+#!/bin/bash
+export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+myTerm=urxvt
+myEdit=nano
+
+menu(){
+	printf "1. blue\n"
+	printf "2. flamingo\n"
+	printf "3. green\n"
+	printf "4. lavender\n"
+	printf "5. maroon\n"
+	printf "6. mauve\n"
+	printf "7. peach\n"
+	printf "8. pink\n"
+	printf "9. red\n"
+	printf "10.rosewater\n"
+	printf "11. sapphire\n"
+	printf "12. sky\n"
+	printf "13. teal\n"
+	printf "14. yellow\n"
+}
+
+main(){
+    choice=$(menu | rofi -dmenu  | cut -d. -f1)
+
+	case $choice in
+		1)
+			leftwm theme apply catppuccin-mocha-blue
+            ;;
+		2)
+			leftwm theme apply catppuccin-mocha-flamingo
+            ;;
+		3)
+			leftwm theme apply catppuccin-mocha-green
+            ;;
+		4)
+			leftwm theme apply catppuccin-mocha-lavender
+            ;;
+		5)
+			leftwm theme apply catppuccin-mocha-maroon
+            ;;	
+		6)
+			leftwm theme apply catppuccin-mocha-mauve
+            ;;
+		7)
+			leftwm theme apply catppuccin-mocha-peach
+            ;;
+		8)
+			leftwm theme apply catppuccin-mocha-pink
+            ;;
+		9)
+			leftwm theme apply catppuccin-mocha-red
+            ;;
+		10)
+			leftwm theme apply catppuccin-mocha-rosewater
+            ;;
+		11)
+			leftwm theme apply catppuccin-mocha-sapphire
+            ;;
+		12)
+			leftwm theme apply catppuccin-mocha-sky
+            ;;
+		13)
+			leftwm theme apply catppuccin-mocha-teal
+            ;;
+		14)
+			leftwm theme apply catppuccin-mocha-yellow
+            ;;
+        esac
+}
+
+main
+

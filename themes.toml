@@ -1,0 +1,108 @@
+[[repos]]
+url = "https://raw.githubusercontent.com/leftwm/leftwm-community-themes/master/known.toml"
+name = "community"
+definitions_version = 1
+themes = []
+
+[[repos]]
+url = "localhost"
+name = "LOCAL"
+definitions_version = 1
+
+[[repos.themes]]
+name = "catppuccin-mocha-blue"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-colours/catppuccin-mocha-blue"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-rosewater"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-rosewater"
+version = "0.0.0"
+leftwm_versions = "*"
+current = true
+
+[[repos.themes]]
+name = "catppuccin-mocha-flamingo"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-flamingo"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-pink"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-pink"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-mauve"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-mauve"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-red"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-red"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-maroon"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-maroon"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-peach"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-peach"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-yellow"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-yellow"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-green"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-green"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-teal"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-teal"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-sky"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-sky"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-sapphire"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-sapphire"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false
+
+[[repos.themes]]
+name = "catppuccin-mocha-lavender"
+directory = "/home/peter/.config/leftwm/themes/catppuccin-mocha-colours/catppuccin-mocha-lavender"
+version = "0.0.0"
+leftwm_versions = "*"
+current = false

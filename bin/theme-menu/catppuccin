@@ -1,0 +1,23 @@
+#!/bin/bash
+export SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
+myTerm=urxvt
+myEdit=nano
+
+menu(){
+	printf "1. catppuccin colours\n"
+}
+
+main(){
+    choice=$(menu | rofi -dmenu  | cut -d. -f1)
+
+	case $choice in
+		1)
+			sh $SCRIPTPATH/catppuccin-colours
+            ;;
+
+        esac
+}
+
+main
+
